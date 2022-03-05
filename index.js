@@ -85,7 +85,7 @@ app.post('/webhook', (req, res) => {
     res.sendStatus(200)
 })
 
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send("Hello world !!!")
 })
 
