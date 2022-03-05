@@ -85,6 +85,10 @@ app.post('/webhook', (req, res) => {
     res.sendStatus(200)
 })
 
+app.post('/', (req, res) => {
+  res.send("Hello world !!!")
+})
+
 // var server = https.createServer( https_options , app );
 // server.listen(port, function () { console.log('Starting node.js on port ' + port);});
 
